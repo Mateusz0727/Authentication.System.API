@@ -31,3 +31,16 @@ G:\Portfolio\AuthenticationSystem\Authentication.System.API\obj\Debug\net7.0\ref
 G:\Portfolio\AuthenticationSystem\Authentication.System.API\obj\Debug\net7.0\Authentication.System.API.pdb
 G:\Portfolio\AuthenticationSystem\Authentication.System.API\obj\Debug\net7.0\Authentication.System.API.genruntimeconfig.cache
 G:\Portfolio\AuthenticationSystem\Authentication.System.API\obj\Debug\net7.0\ref\Authentication.System.API.dll
+G:\Portfolio\AuthenticationSystem\Authentication.System.API\bin\Debug\net7.0\AWSSDK.Core.dll
+G:\Portfolio\AuthenticationSystem\Authentication.System.API\bin\Debug\net7.0\AWSSDK.SecurityToken.dll
+G:\Portfolio\AuthenticationSystem\Authentication.System.API\bin\Debug\net7.0\DnsClient.dll
+G:\Portfolio\AuthenticationSystem\Authentication.System.API\bin\Debug\net7.0\MongoDB.Bson.dll
+G:\Portfolio\AuthenticationSystem\Authentication.System.API\bin\Debug\net7.0\MongoDB.Driver.dll
+G:\Portfolio\AuthenticationSystem\Authentication.System.API\bin\Debug\net7.0\MongoDB.Driver.Core.dll
+G:\Portfolio\AuthenticationSystem\Authentication.System.API\bin\Debug\net7.0\MongoDB.Libmongocrypt.dll
+G:\Portfolio\AuthenticationSystem\Authentication.System.API\bin\Debug\net7.0\SharpCompress.dll
+G:\Portfolio\AuthenticationSystem\Authentication.System.API\bin\Debug\net7.0\Snappier.dll
+G:\Portfolio\AuthenticationSystem\Authentication.System.API\bin\Debug\net7.0\ZstdSharp.dll
+G:\Portfolio\AuthenticationSystem\Authentication.System.API\bin\Debug\net7.0\runtimes\linux\native\libmongocrypt.so
+G:\Portfolio\AuthenticationSystem\Authentication.System.API\bin\Debug\net7.0\runtimes\osx\native\libmongocrypt.dylib
+G:\Portfolio\AuthenticationSystem\Authentication.System.API\bin\Debug\net7.0\runtimes\win\native\mongocrypt.dll

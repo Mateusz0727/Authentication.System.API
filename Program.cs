@@ -1,4 +1,11 @@
+using Authentication.System.API.Models;
+using Authentication.System.API.Services;
+
 var builder = WebApplication.CreateBuilder(args);
+
+builder.Services.Configure<MongoDBSetting>(builder.Configuration.GetSection("MongoDB"));
+builder.Services.AddSingleton<MongoDBService>();
+
 
 // Add services to the container.
 
