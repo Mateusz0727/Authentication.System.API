@@ -7,23 +7,22 @@ namespace Authentication.System.API.Controllers;
 [Route("api/[controller]")]
 public class UsersController : Controller
 {
-    private readonly MongoDBService _mongoDBService;
+    private readonly UserService _userService;
 
-    public UsersController(MongoDBService mongoDBService)
+    public UsersController(UserService userService)
     {
-        _mongoDBService = mongoDBService;
+        _userService = userService;
     }
     [HttpGet("id")]
     public async Task<User> GetById(long id)
     {
-       return await _mongoDBService.GetByIdAsync(id);
+       return await _userService.GetByIdAsync(id);
     }
-
-    [HttpPost]
-    public async Task<IActionResult> Post([FromBody]User user)
+    [HttpGet]
+    public async Task<List<User>> Get(CancellationToken cancellationToken)
     {
-       await _mongoDBService.CreateAsync(user);
-        return CreatedAtAction(nameof(GetById),new {id = user.Id});
+        return await _userService.GetAsync(cancellationToken);
     }
+   
 
 }
