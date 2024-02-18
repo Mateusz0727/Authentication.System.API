@@ -10,9 +10,10 @@ public class AuthService
     private JWTConfig _config;
     protected IPasswordHasher<User> Hasher { get; }
 
-    public AuthService(JWTConfig config)
+    public AuthService(JWTConfig config,IPasswordHasher<User> hasher)
     {
         _config = config;
+          Hasher= hasher;
     }
     public bool Login(LoginFormModel login, User user)
     {
